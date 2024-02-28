@@ -39,17 +39,17 @@ export default async function Layout({
   children: ReactNode;
 }) {
   getData()
-  const data = await getData();
-  console.log(data.body);
+  const data: ProfileData = await getData();
+  console.log(data);
   
   return (
     <>
     {children}
     <h1 className="  flex justify-center">holla : {data.title}</h1>
       <div className=" grid grid-cols-2 gap-3">
-       {data.map((items: ProfileData, index : any)=>(
+       {/* {data.map((items: ProfileData, index : any)=>(
         <h1 key={index}>{items.title}</h1>
-       ))}
+       ))} */}
         <div>{team}</div>
           <div >{user}</div>
       </div>

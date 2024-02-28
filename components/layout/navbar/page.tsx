@@ -11,6 +11,7 @@ const Navbar = () => {
           <Link href={'/'} className="px-4">Halaham Utama</Link>
           <Link href={'/produk'} className="px-4">Produk</Link>
           <Link href={'/about'} className="px-4">About</Link>
+          <Link href={'/dashboard'} className="px-4">Dashboard</Link>
           <Link href={'/login'} className="">Login</Link>
         </div>
       </nav>
