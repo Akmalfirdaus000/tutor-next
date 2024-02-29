@@ -20,7 +20,7 @@ async function getData() {
   }
   
   return await res.json();
-}
+} 
 
 export async function generateMetadata(): Promise<Metadata> {
   const data: ProfileData = await getData();
